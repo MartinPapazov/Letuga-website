@@ -1,45 +1,41 @@
+body{
+	background:linear-gradient(#707070 ,#D0D0D0) no-repeat center center fixed;
+	
+}
 #wrapper{
 	width: 1000px;
 	margin: 0 auto;
 }
-header{
-	height: 293px;
+header>img{
+		margin-left: 50px;
+		width: 150px;
+		height: 75px
+	}
+.MainPicture{
+	margin-top: 10;
+	border-radius: 20px;
+	height: 250px;
 	background-image: url(../img/header.jpg);
 	background-repeat: no-repeat;
 	background-size: 1000px 250px;
 	position: relative;
 }
-	header>img{
-		margin-left: 50px;
-		margin-top: 20px;
-		width: 200px;
-		height: 100px
-	}
-	header>div{
-		background-color: #33CCFF;
-		margin-top: 130px;
+
+	div.menu{
+		background: linear-gradient(white, #686868);
 		height: 55px;
-	}
-	header>div>div.menu{
-		background-color:;
-		width: 800px;
-		height: 55px;
-		margin: 0 auto;
-		text-align: center;
+		border-radius: 25px;
 		
 	}
-		header>div>div>ul{
-			padding-top: 15px
-		}
-		header>div>div>ul>li{
+	div.menu>div{
+		width: 700px;
+		height: 55px;
+		float: left;
+	}
+		div.menu>div>ul>li{
 			display: inline;
-			margin-left: 10px;
-			margin-right: 10px;
 		}
-			header>div a{
-			
-			}
-			header>div a,a:visited,a:active{
+			div.menu>div a,a:visited,a:active{
 				text-decoration: none;
 				font-size: 20px;
 				padding: 10px 25px 10px 25px;
@@ -49,9 +45,23 @@ header{
 				font-size: 1.3em;
 				font-weight: bold;
 			}
-			header>div a:hover{
-				background-color: red;
-				color: #33CCFF;
+			div.menu>div a:hover{
+				background: linear-gradient(to right, #33CCFF, #D6F5FF, #33CCFF);
 			}
+		div.menu>input{
+			float:right;
+			margin-top: 9px;
+			margin-right: 30px;
+			border-radius: 12px;
+			width: 250px;
+			height: 34px;
+			font-size: 20px;
+			padding-left: 45px;
+			padding-right:10px;
+			background-image: url(../img/search-icon.png);
+			background-repeat: no-repeat;
+			background-size: 25px 25px;
+			background-position: 4% 60%;
+		}
 
 
