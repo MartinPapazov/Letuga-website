@@ -18,18 +18,18 @@ header{
 	header>div{
 		background-color: #33CCFF;
 		margin-top: 130px;
-		height: 43px;
+		height: 55px;
 	}
 	header>div>div.menu{
 		background-color:;
 		width: 800px;
-		height: 43px;
+		height: 55px;
 		margin: 0 auto;
 		text-align: center;
 		
 	}
 		header>div>div>ul{
-			padding-top: 10px
+			padding-top: 15px
 		}
 		header>div>div>ul>li{
 			display: inline;
