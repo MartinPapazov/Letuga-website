@@ -1,0 +1,51 @@
+#wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+header{
+	border: 2px solid black;
+	height: 250;
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: 1200px 250px;
+	position: relative;
+}
+	header>img{
+		margin-left: 50px;
+		margin-top: 20px;
+		width: 200px;
+		height: 100px
+	}
+div#menu>ul>li
+{
+	display: inline-block;
+	
+}
+div#menu>ul{
+	padding: 12px;
+}
+div#menu a,
+a.visited,
+a.active
+{
+	color: black;
+	font-size: 1.5em;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+div#menu a:hover{
+	background-color: #333300;
+}
+#menu{
+	height: 50px;
+	background-color: #339966;
+	text-align: center;
+	
+
+}
+
+
