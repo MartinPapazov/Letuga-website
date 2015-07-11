@@ -70,8 +70,18 @@ div.main{
 	border-radius: 20px;
 	background-color: #707070;
 	margin-top: 10;
+	float: left;
+	width: 745px;
 }
-
+aside{
+	background-color: green;
+	height: 1000px;
+	margin-top: 10px;
+	width: 245px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 20px;
+}
 
 /* footer */
 footer{
@@ -84,13 +94,14 @@ footer{
 	height: 100px;
 	text-align: center;
 	background: linear-gradient(#181818 ,#202020 ,#303030 ,#383838);
+	float: left;
+	width: 100%;
 }
 	footer>p{
 		font-style: oblique;
 	}
 	footer>nav{
 		text-transform: uppercase;
-		
 		
 	}
 		footer>nav a,a:visited,a:active{
