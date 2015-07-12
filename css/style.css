@@ -1,23 +1,38 @@
 body{
-	background:linear-gradient(#707070 ,#D0D0D0) no-repeat center center fixed;
+	background:linear-gradient(#A0A0A0  ,#D0D0D0 ,#D8D8D8 ) no-repeat center center fixed;
 	
 }
 #wrapper{
 	width: 1000px;
 	margin: 0 auto;
 }
-header>img{
-		margin-left: 50px;
-		width: 150px;
-		height: 75px
-	}
+header>.logo{
+	width: 160px;
+	height: 80px;
+	background-image: url(../img/Logo-background.jpg);
+	background-repeat: no-repeat;
+	font-family: 'Brush Script MT';
+	font-size: 60px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	font-style: italic;
+	background-image: url(../img/Logo-background.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px 100px;
+	border-radius: 100px;
+	padding-left: 30px;
+	padding-right: 10px;
+	color: #D8D8D8;
+	
+}
+
 .MainPicture{
 	margin-top: 10;
 	border-radius: 20px;
-	height: 250px;
+	height: 300px;
 	background-image: url(../img/header.jpg);
 	background-repeat: no-repeat;
-	background-size: 1000px 250px;
+	background-size: 1000px 600px;
 	position: relative;
 }
 
