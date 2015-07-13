@@ -9,8 +9,6 @@ body{
 header>.logo{
 	width: 160px;
 	height: 80px;
-	background-image: url(../img/Logo-background.jpg);
-	background-repeat: no-repeat;
 	font-family: 'Brush Script MT';
 	font-size: 60px;
 	margin-bottom: 10px;
@@ -42,15 +40,15 @@ header>.logo{
 		border-radius: 25px;
 		
 	}
-	div.menu>div{
+	div.menu>div.menu-items{
 		width: 700px;
 		height: 55px;
 		float: left;
 	}
-		div.menu>div>ul>li{
+		div.menu>div.menu-items>ul>li{
 			display: inline;
 		}
-			div.menu>div a,a:visited,a:active{
+			div.menu>div.menu-items a,a:visited,a:active{
 				text-decoration: none;
 				font-size: 20px;
 				padding: 10px 25px 10px 25px;
@@ -60,9 +58,16 @@ header>.logo{
 				font-size: 1.3em;
 				font-weight: bold;
 			}
-			div.menu>div a:hover{
+			div.menu>div.menu-items a:hover{
 				background: linear-gradient(to right, #33CCFF, #D6F5FF, #33CCFF);
 			}
+					div.menu>div.flag img{
+						width: 45px;
+						height: 30px;
+						float: right;
+						margin-top: 12px;
+						margin-right: 20px;	
+					}
 		div.menu>input{
 			float:right;
 			margin-top: 9px;
@@ -83,21 +88,19 @@ div.main{
 	widows: 1000px;
 	height: 1000px;
 	border-radius: 20px;
-	background-color: #707070;
+	border: 3px solid #707070;
 	margin-top: 10;
 	float: left;
-	width: 745px;
+	width: 1000px;
+	background-color: #E0E0E0;
 }
 aside{
 	background-color: green;
-	height: 1000px;
-	margin-top: 10px;
+	height: 980px;
 	width: 245px;
-	float: left;
-	margin-left: 10px;
-	border-radius: 20px;
+	float: right;
+	margin: 10px;
 }
-
 /* footer */
 footer{
 	margin-top: 10;
