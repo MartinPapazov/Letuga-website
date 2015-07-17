@@ -2,25 +2,26 @@ body{
 	background:linear-gradient(#A0A0A0  ,#D0D0D0 ,#D8D8D8 ) no-repeat center center fixed;
 	
 }
+
 #wrapper{
 	width: 1000px;
 	margin: 0 auto;
 }
-header>.logo{
+.logo{
+	position: absolute;
+	top: 50px;
+	left: 60px;
 	width: 160px;
 	height: 80px;
-	font-family: 'Brush Script MT';
-	font-size: 60px;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 40px;
 	margin-bottom: 10px;
 	margin-left: 50px;
 	font-style: italic;
-	background-image: url(../img/Logo-background.jpg);
-	background-repeat: no-repeat;
-	background-size: 400px 100px;
-	border-radius: 100px;
-	padding-left: 30px;
-	padding-right: 10px;
 	color: #D8D8D8;
+	border-radius: 200%;
+	padding-left: 20px;
+	text-shadow: 1px 5px 6px purple;
 	
 }
 
@@ -35,6 +36,7 @@ header>.logo{
 }
 
 	div.menu{
+		margin-top: 50px;
 		background: linear-gradient(white, #686868);
 		height: 55px;
 		border-radius: 25px;
@@ -94,6 +96,18 @@ div.main{
 	width: 1000px;
 	background-color: #E0E0E0;
 }
+.main > section{
+		padding: 10px;
+		margin-top: 15px;
+		margin-left: 10px;
+		width: 700px;
+		height: 950px;
+		float: left;
+}
+
+.main > section > h1 {
+	text-align: center;
+}
 aside{
 	background-color: green;
 	height: 980px;
@@ -137,17 +151,69 @@ footer{
 
 /* google maps */
 	#map-canvas {
+		margin-top:350px;
 		width: 500px;
 		height: 400px;
 		background-color: #CCC;
 		float: right;
 		
 	}
-	.main>div.contacts-information{
-		width: 450px;
-		height: 500px;
-		float: left;
-			
-			
+
+
+.facebook-icon > a >div:hover{
+	width: 200px;
+}
+.facebook-icon> a > div:hover > p{
+	padding-left: 60px;
+	position: absolute;
+	display: block;
+	bottom: -7;
+}
+.facebook-icon img{
+	width: 50px;
+	height: 50px;
+}
+.facebook-icon> a > div{
+	width: 50px;
+	height: 50px;
+	background: #4B6DAA;
+	transition: 1s;
 	}
+.facebook-icon > a > div > p {
+	font-size: 20px;
+	display: none;
+}
+.facebook-icon{
+	position: fixed;
+	right: 0;
+	top: 113;
+}
+.google-plus-icon > a >div:hover{
+	width: 200px;
+}
+.google-plus-icon > a > div:hover > p{
+	padding-left: 60px;
+	position: absolute;
+	display: block;
+	bottom: -7;
+}
+.google-plus-icon img{
+	width: 50px;
+	height: 50px;
+}
+.google-plus-icon > a > div{
+	width: 50px;
+	height: 50px;
+	background: 	#D94835;
+	transition: 1s;
+	}
+.google-plus-icon > a > div > p {
+	font-size: 20px;
+	display: none;
+}
+.google-plus-icon{
+	position: fixed;
+	right: 0;
+	top: 163;
+}
 
