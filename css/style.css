@@ -132,7 +132,26 @@ div.main{
 			margin-top: 40px;
 			margin-bottom: 60px;
 		}
-
+		.main > section > div.pictures {
+			width 700px;
+			height: 900px;
+				padding: 10px;
+				padding-top: 70px;
+		}
+			.pictures > a > img{
+				position: relative;
+				border: 2px solid black;
+				margin: 9px;
+				width: 200px;
+				height: 140px;
+				opacity: 0.7;
+			}
+			
+			.pictures > a:hover img{
+				border: 2px inset red;
+				opacity: 1;
+			}
+			
 aside{
 	height: 980px;
 	width: 243px;
@@ -248,4 +267,5 @@ footer{
 	right: 0;
 	top: 163;
 }
+
 
