@@ -1,14 +1,14 @@
-body{
-	background:linear-gradient(#A0A0A0  ,#D0D0D0 ,#D8D8D8 ) no-repeat center center fixed;
+body {
+	background:linear-gradient(#66CCFF, #99CCFF, #B8DBFF  ,#D0D0D0) no-repeat center center fixed;
 	
 }
 
-#wrapper{
+#wrapper {
 	width: 1000px;
 	margin: 0 auto;
 }
 
-div.flag>img{
+div.flag > img {
 	position: absolute;
 	width: 40px;
 	height: 40px;
@@ -21,21 +21,22 @@ div.menu{
     background-image: url(../img/menu-backgraund.jpeg);
     height: 55px;
     border-radius: 25px;
+	border: 4px double #5C2E00;
 
 }
-div.menu>div.menu-items{
+div.menu > div.menu-items {
     width: 900px;
     height: 55px;
     margin: 0 auto;
 }
-div.menu>div.menu-items>div.logo{
+div.menu > div.menu-items > div.logo {
     width: 220px;
     height: 20px;
     padding-left: 20px;
     float:left;
 }
 
-div.menu>div.menu-items>div.logo > div > div{
+div.menu > div.menu-items > div.logo > div > div {
     background-image: url(../img/logo.png);
     background-size: 190px 86px;
     background-repeat: no-repeat;
@@ -50,7 +51,7 @@ div.menu>div.menu-items>div.logo > div > div{
     color: #5C2E00;
 }
 
-div.menu>div.menu-items>div.logo>div{
+div.menu > div.menu-items > div.logo > div {
     width: 200px;
     height: 100px;
     position: absolute;
@@ -60,12 +61,12 @@ div.menu>div.menu-items>div.logo>div{
     border: 4px double #5C2E00;
 }
 
-div.menu>div.menu-items>ul>li{
+div.menu > div.menu-items > ul > li {
     display: inline;
     float: left;
-    margin-top: 16px;
+    
 }
-div.menu>div.menu-items a,a:visited{
+div.menu > div.menu-items a, a:visited {
     text-decoration: none;
     font-size: 20px;
     padding: 10px 25px 10px 25px;
@@ -74,10 +75,10 @@ div.menu>div.menu-items a,a:visited{
     font-size: 1.3em;
     font-weight: bold;
 }
-div.menu>div.menu-items a:hover{
+div.menu > div.menu-items a:hover{
     border: 3px groove #5C2E00;
     background-image: url(../img/menu-buttons-background.jpeg);
-  
+		padding: 10px 22px 10px 22px;
 }
 
 
@@ -107,27 +108,45 @@ div.main{
     margin-top: 10;
     float: left;
     width: 1000px;
-    background-color: #E0E0E0;
+    background: linear-gradient(#94B8FF,#C2D6FF,#C2D6FF ,#FFFFFF) no-repeat ;
+		background-image: url(../img/grass.png), url(../img/sun.png), url(../img/sky.jpeg);
+		background-size: 1000px 120px,100px 90px,1000px 1200px;
+		background-position: bottom,top left,center;
+		
 }
-.main > section{
-		padding: 10px;
-		margin-top: 15px;
-		margin-left: 10px;
-		width: 700px;
-		height: 950px;
-		float: left;
-}
+	.main > section{
+			padding: 10px;
+			margin-top: 15px;
+			margin-left: 10px;
+			width: 700px;
+			height: 950px;
+			float: left;
+	}
+		.main > section > h1 {
+			text-align: center;
+			margin-top: 40px;
+			margin-bottom: 25px;
+		}
+		.main > section > h2 {
+			padding-left: 190px;
+			margin-top: 40px;
+			margin-bottom: 60px;
+		}
 
-.main > section > h1 {
-	text-align: center;
-}
 aside{
-	background-color: green;
 	height: 980px;
-	width: 245px;
+	width: 243px;
 	float: right;
 	margin: 10px;
+	border: 3px outset #4786CB;
+	box-shadow: 5px 4px 5px #99CCFF;
+	border-radius: 20px;
 }
+	aside > div.weather {
+		position: relative;
+		right: 26;
+		
+	}
 /* footer */
 footer{
 	margin-top: 10;
