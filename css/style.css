@@ -161,6 +161,19 @@ div.main{
 				border: 2px inset red;
 				opacity: 1;
 			}
+			.room-pictures > a > img{
+				position: relative;
+				border: 1px solid black;
+				margin: 9px;
+				width: 200px;
+				height: 100px;
+			}
+			
+			.room-pictures > a:hover img{
+				border: 1px inset red;
+
+			}
+			
 			
 			.page-navigation-buttons{
 				text-align: center;
@@ -227,6 +240,33 @@ aside{
 		color: #fff;
 		text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
 		font: 40px 'ChunkFiveRegular';
+}
+
+table, th, td{
+	border-collapse: collapse;
+		border: 1px solid white;
+}
+
+table{
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 10px solid white;
+	height: 330px;
+}
+
+th{
+	background-color: #A0A0A0;
+	color: white;
+}
+
+td{
+	background-color: white;
+	width: 200px;
+	text-align: center;
+}
+
+.room{
+	color: #686868;
 }
 /* footer */
 footer{
