@@ -64,6 +64,7 @@ div.menu > div.menu-items > div.logo > div {
 div.menu > div.menu-items > ul > li {
     display: inline;
     float: left;
+    padding-left: 5px;
     
 }
 div.menu > div.menu-items a, a:visited {
