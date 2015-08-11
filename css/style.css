@@ -44,10 +44,10 @@ div.menu > div.menu-items > div.logo > div > div {
     height: 80px;
     text-align: center;
     margin-left: 10px;
-    padding-top: 40px;
-    font-size: 30px;
-    font-family: 'Uncial Antiqua', cursive;
-    text-shadow: 1px 5px 6px white;
+    padding-top: 31px;
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 1px 1px 1px white;
     color: #5C2E00;
 }
 
@@ -236,6 +236,11 @@ aside{
 		position: relative;
 		right: 26;
 		
+	}
+	aside > div.facebook-page-plugin{
+		text-align: center;
+		position: relative;
+		top:10;
 	}
 	h1.gallery-header {
 		color: #fff;
