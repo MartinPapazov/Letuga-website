@@ -234,8 +234,9 @@ aside{
 }
 	aside > div.weather {
 		position: relative;
-		right: 26;
-		
+		left: 55;
+		top: 10;
+		margin-bottom: 10px;
 	}
 	aside > div.facebook-page-plugin{
 		text-align: center;
