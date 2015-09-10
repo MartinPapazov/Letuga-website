@@ -114,9 +114,9 @@ div.main{
     float: left;
     width: 1000px;
     background: linear-gradient(#94B8FF,#C2D6FF,#C2D6FF ,#FFFFFF) no-repeat ;
-		background-image: url(../img/grass.png), url(../img/sun.png), url(../img/sky.jpeg);
-		background-size: 1000px 120px,100px 90px,1000px 1200px;
-		background-position: bottom,top left,center;
+		background-image: url(../img/grass.png), url(../img/sky.jpeg);
+		background-size: 1000px 120px,1000px 1200px;
+		background-position: bottom,center;
 		
 }
 	.main > section{
